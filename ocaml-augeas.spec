@@ -18,7 +18,7 @@ files. This provides complete OCaml bindings for Augeas.
 
 %package        devel
 Summary:        Development files for %{name}
-Group:          Development/Libraries
+Group:          Development/Other
 Requires:       %{name} = %{version}-%{release}
 
 %description    devel
