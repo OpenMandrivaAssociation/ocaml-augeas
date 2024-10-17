@@ -4,7 +4,7 @@ Release:        %mkrel 1
 Summary:        OCaml bindings for Augeas configuration API
 License:        LGPLv2+ with exceptions
 Group:          Development/Other
-URL:            http://et.redhat.com/~rjones/augeas/files/
+URL:            https://et.redhat.com/~rjones/augeas/files/
 Source0:        http://et.redhat.com/~rjones/augeas/files/ocaml-augeas-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 BuildRequires:  ocaml
