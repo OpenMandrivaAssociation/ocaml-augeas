@@ -7,6 +7,11 @@ Group:          Development/Other
 URL:            https://et.redhat.com/~rjones/augeas/files/
 Source0:        http://et.redhat.com/~rjones/augeas/files/ocaml-augeas-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  ocaml
 BuildRequires:  ocaml-findlib
 BuildRequires:  augeas-devel >= 0.1.0
