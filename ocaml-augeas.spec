@@ -1,6 +1,6 @@
 Name:           ocaml-augeas
 Version:        0.4
-Release:        %mkrel 1
+Release:        2
 Summary:        OCaml bindings for Augeas configuration API
 License:        LGPLv2+ with exceptions
 Group:          Development/Other
